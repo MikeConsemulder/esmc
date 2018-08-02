@@ -1,0 +1,49 @@
+.photo_album{
+	width: 250px;
+	height: 250px;
+	box-shadow: 0 0 8px rgba(255, 255, 255, .4);
+	-webkit-box-shadow: 0 0 8px rgba(255, 255, 255, .4);
+	-moz-box-shadow: 0 0 8px rgba(255, 255, 255, .4);
+	float:left;
+	margin:10px;
+	text-align: center;
+	background-size:cover;
+}
+
+.photo_album:hover{
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.album_title{
+	background-color: #333333;
+	background-size: 250px;
+	padding: 10px;
+}
+
+.esmc_image{
+	width: 400px;
+	float:left;
+	margin: 20px;
+	box-shadow: 0 0 8px rgba(255, 255, 255, .4);
+	-webkit-box-shadow: 0 0 8px rgba(255, 255, 255, .4);
+	-moz-box-shadow: 0 0 8px rgba(255, 255, 255, .4);
+}
+
+.button{
+	font-weight: 1.3em;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.esmc_image{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.animal_loading_gif{
+	width: 60px;
+	height: 60px;
+	margin-left: 40%;
+}

@@ -1,0 +1,123 @@
+/*
+Theme Name: ESMC De Asfhalhappertjes theme
+Author: Mike Consemulder & Rolf Janssen
+Author URI: http://www.mico-media.nl
+Version: 1.0
+*/
+
+/* import css files */
+@import url('assets/css/big-important-stuff/main.css');
+
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: auto 100%;
+}
+
+.youtubePlayer{
+    min-width: 225px;
+    width: 45%;
+    float:left;
+    display: inline-block;
+    margin-top:15px;
+    margin-left:5%;
+    min-height: 200px;
+}
+
+#youtubeContainer{
+    text-align: center;
+}
+
+.activityLink{
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-bottom: 15px;
+}
+
+.avatar, .commentmetadata {
+    display: none;
+}
+
+.commentlist li{
+    list-style-type: none;
+}
+
+.thread-even{
+    padding-top:20px;
+    border-top: 1px grey solid;
+}
+
+.thread-odd{
+    padding-top:20px;
+    border-top: 1px grey solid;
+}
+
+.vcard span{
+    display: none;
+}
+
+.vcard{
+    color: #fde128;
+}
+
+.comment-reply-link{
+   color: #808080;
+}
+
+.comment-body{
+    padding:5px;
+    margin:5px;
+    background-color: #353535;
+}
+
+.comment-subscription-form input{
+    display: none;
+}
+
+.schrijfIn{
+    margin-top:10px;
+}
+
+.submit{
+    background-color: #fde128;
+}
+
+#comments{
+    display: none;
+}
+
+.signUpContainer{
+    width: 30%; min-width: 200px; float:left
+}
+
+.commentSection{
+    width: 60%; float:right;
+}
+
+
+
+/*   */
+
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+
+@media screen and (max-width: 800px) {
+    .signUpContainer{
+        width: 100%;
+        float: none;
+
+    }
+
+    .commentSection{
+        width: 100%;
+        float: none;
+    }
+}
